@@ -4,25 +4,27 @@ function About() {
   return (
     <>
       <header>
-        <div className="hero flex items-baseline">
-          <h1 className="text-4xl font-black flex">About</h1>
+        <div className="hero flex flex-container">
+          <h1 className="text-4xl font-black flex items-baseline">
+            About</h1>
         </div>
 
       </header>
-      <main className="my-8">
-        <section className=" flex flex-row mx-8 w-2/3">
+      <main className="my-8 mx-0">
+        <section className="container flex flex-row mx-8 w-2/3 content-start">
           <div>
             <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
           </div>
-          <div>
-            <p className="flex-col ml-4 w-2/3">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
-              <br />
-              <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
-            </p>
-          </div>
+
+          <p className="flex-col ml-4 w-2/3">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
+            <br />
+            <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
+          </p>
+
         </section>
         <section className="w-3/5 mx-8 my-4">
-          <p>
+
+          <p className="">
             Sarah Burton completed RIBA Part 2 at The Bartlett School of Architecture, UCL in 2005. After working for six years in architectural practices
             in London and Sydney, she discovered permaculture whilst living with
             an eco-community in Byron Bay, Australia. Sarah was inspired by how
@@ -31,19 +33,23 @@ function About() {
             established SuperlandStudio a few years later, integrating permaculture’s
             design principles into her own architecture work.</p>
           <br />
-          <p>Sarah has completed courses on Passivhaus and retrofit at The Green
+          <p className="">Sarah has completed courses on Passivhaus and retrofit at The Green
             Register. She continues to research and work in both fields of sustainable architecture and permaculture, drawing from the two disciplines to
             inform her designs.
             She is passionate about education of agroecological practices and provides valuable illustrations and graphic resources for Niels Corfield, Edible
             Cities and Permaculture Network training and education programmes.</p>
           <br />
-          <p>Sarah now runs <span className="font-bold">superland studio</span> from her Cornish smallholding near
+          <p className="">Sarah now runs <span className="font-bold">superland studio</span> from her Cornish smallholding near
             Camborne, where ecological design is an integral part of her home.
           </p>
+
+          {/* <aside className="w-1/3 flex-row"> */}
+          {/* <div className="flex flex-row justify-end w-1/4 h-auto">
+            <img src="https://images.unsplash.com/photo-1503818454-2a008dc38d43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="tall" />
+            </aside> */}
+          {/* </div> */}
+
         </section>
-        <aside className="w-1/3 flex-row">
-          <img src="https://images.unsplash.com/photo-1503818454-2a008dc38d43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="tall" className="flex flex-row justify-end" />
-        </aside>
         <section className="bg-gray-200 w-full">
           <h4 className="font-bold my-8 mx-4 pt-8">PARTNERS</h4>
           <div className="w-1/2 my-8 flex content-start">
@@ -81,6 +87,18 @@ function About() {
               are both beautiful and abundant, and
               touch the earth lightly.
             </p>
+          </div>
+        </section>
+        <section>
+          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8">
+            <p className="text-sm  ml-8 mr-24">
+              <span className="font-bold">OUR NAMESAKE</span>: Inspired by the 1960s architecture collective SUPER STUDIO,
+              super‘land’studio seeks to engage contemporary architecture design with that of
+              ecosystem design using the permaculture principles of Earth Care, People Care &
+              Fair Share. We work closely with other like-minded designers, eco-builders and
+              educators to deliver integrated ecological design for modern living.
+            </p>
+
           </div>
         </section>
 
