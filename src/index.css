@@ -3,9 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-} */
+* {
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  margin: auto 0;
+}
 
 ul li {
   list-style-type: square;
@@ -14,7 +15,7 @@ ul li {
 .hero {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c2/Glorious-blue-mountain-range.jpg");
   background-size: cover;
-  opacity: 0.5;
+  opacity: 1;
   height: 600px;
   width: 100%;
 }
