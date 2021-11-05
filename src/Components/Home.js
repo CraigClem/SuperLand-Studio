@@ -1,4 +1,4 @@
-import { Image } from 'cloudinary-react'
+import { Image, Transformation } from 'cloudinary-react'
 import Header from './Header'
 
 function Home() {
@@ -6,51 +6,51 @@ function Home() {
     <>
       <Header />
       <main className="h-full">
-        <section className="lg:grid lg:grid-cols-3 gap-4 md:grid grid-cols-2 mx-8 my-8">
+        <section className="grid grid-cols-3 lg:grid lg:grid-cols-3 gap-4 md:grid grid-cols-2 mx-8 my-8">
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="listed_conversion_chiswick_xcn8te">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="portishead_extension_y2qted">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_copy_st1lw1">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="wildlife_area_sunflowers_tp1g4l">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="edible_cities">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
-          <div className="lg:py-0 sm:py-4">
+          <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
+            </Image>
+          </div>
+          <div className="lg:py-0 py-4">
+            <Image cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym">
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_zrwnso">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
-          </div>
-          <div className="lg:py-0 py-4">
-            {/* <Image cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym"> */}
-            {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
-            {/* </Image> */}
           </div>
         </section>
 
@@ -66,8 +66,8 @@ function Home() {
         <section className="grid grid-cols-2 w-full">
 
           <div className="mx-4 my-4">
-            <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq" className="h-full">
-              {/* <Transformation aspectRatio="1.4" height="600" crop="scale" /> */}
+            <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq">
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
 
