@@ -5,26 +5,27 @@ function About() {
     <>
       <header>
         <div className="hero flex flex-container">
-          <h1 className="text-7xl font-black flex">
+          <h1 className="text-2xl font-black flex">
             ABOUT</h1>
         </div>
-
       </header>
-      <main className="my-8 mx-0">
-        <section className="container flex flex-row mx-8 w-2/3 content-start">
-          <div>
+
+      <main className="my-4">
+
+        <section className="grid grid-cols-2 gap-1 mx-8 w-2/3 content-start">
+          <div className="w-full">
             <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
           </div>
-          <div className="w-2/3">
-            <p className="flex-col ml-4 w-2/3">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
-              <br />
+          <div className="w-full text-xs">
+            <p className="mt-5 ml-4">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
+            </p>
+            <p className="ml-4 mt-5 w-full">
               <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
             </p>
           </div>
 
-        </section>
-        <section className="w-3/4 mx-8 my-4">
-          <div className="w-3/4">
+
+          <div className="col-span-2">
             <p className="">
               Sarah Burton completed RIBA Part 2 at The Bartlett School of Architecture, UCL in 2005. After working for six years in architectural practices
               in London and Sydney, she discovered permaculture whilst living with
@@ -45,16 +46,16 @@ function About() {
             </p>
           </div>
 
-          {/* <aside className="w-1/3 flex-row"> */}
-          {/* <div className="flex flex-row justify-end w-1/4 h-auto">
-            <img src="https://images.unsplash.com/photo-1503818454-2a008dc38d43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="tall" />
-            </aside> */}
-          {/* </div> */}
+          {/* <div>
+            <div className="flex flex-row justify-end w-1/4 h-auto">
+              <img src="https://images.unsplash.com/photo-1503818454-2a008dc38d43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="tall" />
+            </div>
+          </div> */}
 
         </section>
-        <section className="bg-gray-200 w-full">
+        <section className="bg-gray-200 w-full text-xs">
           <h4 className="font-bold my-8 mx-4 pt-8">PARTNERS</h4>
-          <div className="w-1/2 my-8 flex content-start">
+          <div className="w-full my-8 flex content-start">
 
             <p className="mx-4 pb-8">
               NIELS CORFIELD / EDIBLE CITIES – Based in the south west, Niels
@@ -63,7 +64,7 @@ function About() {
               productive and edible landscape design, as well as a variety of education resources in permaculture design practice.
               <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic"><br /> www.nielscorfield.com</a>
             </p>
-            <div className="">
+            <div className=" flex">
               <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
             </div>
           </div>
@@ -71,11 +72,11 @@ function About() {
 
 
         <section className="bg-gray-200 w-full flex">
-          <div className="flex flex-row">
+          <div className="flex flex-row ">
             <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
           </div>
-          <div className="w-1/4 my-4 flex-row">
-            <h4 className="font-bold my-4 mx-4 pt-4 flex content-end">What is Permaculture?</h4>
+          <div className="w-full my-4 flex-row text-xs">
+            <h4 className="font-bold my-4 mx-4 flex content-end">What is Permaculture?</h4>
             <p className="mt-4 mx-4">
               Permaculture is a practical, holistic
               design approach to ecological living
@@ -91,9 +92,9 @@ function About() {
             </p>
           </div>
         </section>
-        <section>
-          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8">
-            <p className="text-sm  ml-8 mr-24">
+        <section className="w-full">
+          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8 text-xs">
+            <p className="mx-4">
               <span className="font-bold">OUR NAMESAKE</span>: Inspired by the 1960s architecture collective SUPER STUDIO,
               super‘land’studio seeks to engage contemporary architecture design with that of
               ecosystem design using the permaculture principles of Earth Care, People Care &
