@@ -43,13 +43,13 @@ function Home() {
             </Image>
           </div>
           <div className="lg:py-0 py-4">
-            <Image className="px-16" cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym">
-              <Transformation height="500" width="350" crop="fit" />
+            <Image className="" cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_zrwnso">
+              <Transformation height="500" width="500" crop="fit" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
-            <Image cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_zrwnso">
-              <Transformation height="500" width="500" crop="fit" />
+            <Image className="lg:px-24 md:px-12" cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym ">
+              <Transformation height="300" width="300" crop="fit" />
             </Image>
           </div>
         </section>
