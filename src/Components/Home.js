@@ -1,5 +1,6 @@
 import { Image, Transformation } from 'cloudinary-react'
 import Header from './Header'
+import Contact from './Contact'
 
 function Home() {
   return (
@@ -9,47 +10,47 @@ function Home() {
         <section className="grid grid-cols-3 lg:grid lg:grid-cols-3 gap-4 md:grid grid-cols-2 mx-8 my-8">
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="listed_conversion_chiswick_xcn8te">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="portishead_extension_y2qted">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_copy_st1lw1">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="wildlife_area_sunflowers_tp1g4l">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="edible_cities">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
             <Image className="" cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_zrwnso">
-              <Transformation height="500" width="500" crop="fit" />
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
           <div className="lg:py-0 py-4">
-            <Image className="lg:px-24 md:px-12" cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym ">
-              <Transformation height="300" width="300" crop="fit" />
+            <Image className="" cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_vs3kym ">
+              <Transformation height="400" width="400" crop="fill" />
             </Image>
           </div>
         </section>
@@ -89,6 +90,7 @@ function Home() {
         </section>
 
       </main>
+      <Contact />
     </>
   )
 }
