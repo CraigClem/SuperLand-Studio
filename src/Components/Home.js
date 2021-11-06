@@ -7,8 +7,8 @@ function Home() {
     <>
       <Header />
       <main className="h-full">
-        <div className="flex justify-center text-center mb-10">
-          <p className="leading-10">superland studio connects
+        {/* <div className="flex justify-center text-center mb-10 lg:text-lg">
+          <p className="leading-10">super<strong>land</strong> studio connects
             <br />
             architecture with ecosystem design.
             <br />
@@ -17,7 +17,7 @@ function Home() {
               beautiful buildings and landscapes.
             </span>
           </p>
-        </div>
+        </div> */}
         <section className="grid grid-cols-3 gap-2 mx-8 my-8 lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-2 justify-center">
           <div className="lg:py-0 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq">
@@ -53,6 +53,7 @@ function Home() {
             <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
               <Transformation height="200" width="300" crop="fill" />
             </Image>
+
           </div>
           <div className="lg:py-0 py-4 flex justify-center">
             <Image className="" cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_zrwnso">
@@ -68,10 +69,10 @@ function Home() {
 
         <section className="bg-gray-200 w-full h-96 py-4 my-6 flex align-middle">
           <div className="ml-14">
-            <p className="text-white font-extrabold lg:text-3xl tracking-wide py-1">REGNERATIVE DESIGN</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide">FOR BUILDINGS,</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide">FOR LANDSCAPES,</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide">FOR COMMUNITIES.</p>
+            <p className="text-white font-extrabold lg:text-3xl tracking-wide py-1 leading-10">REGNERATIVE DESIGN</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR BUILDINGS,</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR LANDSCAPES,</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR COMMUNITIES.</p>
           </div>
         </section>
 

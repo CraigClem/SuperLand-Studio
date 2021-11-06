@@ -14,7 +14,7 @@ function Services() {
 
           <div>
             <h4 className="font-bold">SERVICES</h4>
-            <p>superland studio offers full architectural & permaculture design
+            <p>super<stong>land</stong> studio offers full architectural & permaculture design
               services; we see both disciplines as overlapping in their influence and
               approach, critical to achieving fully integrated ecological living.</p>
             <br />
@@ -36,7 +36,7 @@ function Services() {
                 <li>Surevy Services</li>
                 <li>Feasibility Design</li>
                 <li>Planning Applications</li>
-                <li>Building Regulation</li>
+                <li>Building Regulation Applications</li>
                 <li>Conservation of Historic Buildings and Structures</li>
                 <li>Green building / Strawbale Construction / green roofs</li>
                 <li>Financial Management and Job Costing</li>
@@ -57,7 +57,7 @@ function Services() {
             <h4 className="font-bold">Permaculture Services</h4>
             <br />
             <p>
-              superland studio provides a full spectrum of applied permaculture
+              super<strong>land</strong> studio provides a full spectrum of applied permaculture
               design services.
               Our permaculture projects encourage productive landscape design
               alongside building design – connecting the inputs and outputs of
