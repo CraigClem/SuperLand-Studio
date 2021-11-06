@@ -14,11 +14,11 @@ function About() {
       <main className="my-4">
 
         <section className="grid grid-cols-2 gap-1 mx-8 w-1/3 content-start">
-          <div className="">
+          <div className="mt-4">
             <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
           </div>
           <div className="w-full">
-            <p className="mt-5">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
+            <p className="">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
             </p>
             <p className="mt-5 w-full">
               <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
@@ -62,7 +62,7 @@ function About() {
               Corfield is an agroecological educator and has been working closely
               with superland studio for a decade to deliver consulting services for
               productive and edible landscape design, as well as a variety of education resources in permaculture design practice.
-              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic"><br /> www.nielscorfield.com</a>
+              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic text-gray-400"><br /> www.nielscorfield.com</a>
             </p>
           </div>
           <div className="lg:py-0 py-4 my-4">
@@ -74,14 +74,14 @@ function About() {
 
 
         <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
-          <div className="lg:py-0 py-4 my-4 ml-8">
+          <div className="lg:py-0 lg:ml-8 py-4 my-4 mx-4">
             <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
               <Transformation height="400" width="400" crop="fit" />
             </Image>
           </div>
           <div className="w-full my-4">
             <h4 className="font-bold my-4 flex content-end">What is Permaculture?</h4>
-            <p className="mt-4">
+            <p className="mt-4 mr-10">
               Permaculture is a practical, holistic
               design approach to ecological living
               - observing how parts relate, how we
@@ -89,7 +89,7 @@ function About() {
               outputs, working with nature - we can
               develop long-term sustainable solutions.</p>
             <br />
-            <p className="">
+            <p className="mr-10">
               When combining Architecture and Permaculture design, we create places that
               are both beautiful and abundant, and
               touch the earth lightly.
