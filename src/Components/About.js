@@ -97,7 +97,7 @@ function About() {
         </section>
         <section className="w-full">
           <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8">
-            <p className="mx-4">
+            <p className="ml-4 mr-96">
               <span className="font-bold">OUR NAMESAKE</span>: Inspired by the 1960s architecture collective SUPER STUDIO,
               super‘land’studio seeks to engage contemporary architecture design with that of
               ecosystem design using the permaculture principles of Earth Care, People Care &

@@ -69,10 +69,10 @@ function Home() {
 
         <section className="bg-gray-200 w-full h-96 py-4 my-6 flex align-middle">
           <div className="ml-14">
-            <p className="text-white font-extrabold lg:text-3xl tracking-wide py-1 leading-10">REGNERATIVE DESIGN</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR BUILDINGS,</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR LANDSCAPES,</p>
-            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide leading-10">FOR COMMUNITIES.</p>
+            <p className="text-white font-extrabold lg:text-3xl tracking-wide py-1 lg:leading-10">REGNERATIVE DESIGN</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide lg:leading-10">FOR BUILDINGS,</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide lg:leading-10">FOR LANDSCAPES,</p>
+            <p className="text-gray-400 font-extrabold lg:text-3xl py-1 tracking-wide lg:leading-10">FOR COMMUNITIES.</p>
           </div>
         </section>
 
