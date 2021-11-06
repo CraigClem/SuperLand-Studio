@@ -1,32 +1,33 @@
 import React from 'react';
+import { Image, Transformation } from 'cloudinary-react'
 
 function About() {
   return (
     <>
       <header>
-        <div className="hero flex flex-container">
-          <h1 className="text-2xl font-black flex">
+        <div className="hero flex flex-container relative">
+          <h1 className="text-2xl font-black flex absolute bottom-0 left-0">
             ABOUT</h1>
         </div>
       </header>
 
       <main className="my-4">
 
-        <section className="grid grid-cols-2 gap-1 mx-8 w-2/3 content-start">
+        <section className="grid grid-cols-2 gap-1 mx-8 w-1/3 content-start">
           <div className="">
             <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
           </div>
-          <div className="w-full text-xs">
-            <p className="mt-5 ml-4">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
+          <div className="w-full">
+            <p className="mt-5">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
             </p>
-            <p className="ml-4 mt-5 w-full">
+            <p className="mt-5 w-full">
               <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
             </p>
           </div>
 
 
           <div className="col-span-2">
-            <p className="">
+            <p className="mt-4">
               Sarah Burton completed RIBA Part 2 at The Bartlett School of Architecture, UCL in 2005. After working for six years in architectural practices
               in London and Sydney, she discovered permaculture whilst living with
               an eco-community in Byron Bay, Australia. Sarah was inspired by how
@@ -64,15 +65,19 @@ function About() {
               <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic"><br /> www.nielscorfield.com</a>
             </p>
           </div>
-          <div className="my-10 mr-4">
-            <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
+          <div className="lg:py-0 py-4 my-4">
+            <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
+              <Transformation height="400" width="400" crop="fit" />
+            </Image>
           </div>
         </section>
 
 
         <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
-          <div className="my-8 mx-8">
-            <img className="w-full" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
+          <div className="lg:py-0 py-4 my-4 ml-8">
+            <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
+              <Transformation height="400" width="400" crop="fit" />
+            </Image>
           </div>
           <div className="w-full my-4">
             <h4 className="font-bold my-4 flex content-end">What is Permaculture?</h4>
