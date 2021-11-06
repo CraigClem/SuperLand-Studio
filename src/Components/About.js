@@ -13,7 +13,7 @@ function About() {
       <main className="my-4">
 
         <section className="grid grid-cols-2 gap-1 mx-8 w-2/3 content-start">
-          <div className="w-full">
+          <div className="">
             <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
           </div>
           <div className="w-full text-xs">
@@ -53,31 +53,30 @@ function About() {
           </div> */}
 
         </section>
-        <section className="bg-gray-200 w-full text-xs">
-          <h4 className="font-bold my-8 mx-4 pt-8">PARTNERS</h4>
-          <div className="w-full my-8 flex content-start">
-
-            <p className="mx-4 pb-8">
+        <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
+          <div className="my-2 ml-4">
+            <h4 className="font-bold mx-4 pt-8">PARTNERS</h4>
+            <p className="mx-4 pb-8 mt-4">
               NIELS CORFIELD / EDIBLE CITIES – Based in the south west, Niels
               Corfield is an agroecological educator and has been working closely
               with superland studio for a decade to deliver consulting services for
               productive and edible landscape design, as well as a variety of education resources in permaculture design practice.
               <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic"><br /> www.nielscorfield.com</a>
             </p>
-            <div className=" flex">
-              <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
-            </div>
+          </div>
+          <div className="my-10 mr-4">
+            <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
           </div>
         </section>
 
 
-        <section className="bg-gray-200 w-full flex">
-          <div className="flex flex-row ">
-            <img className="" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
+        <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
+          <div className="my-8 mx-8">
+            <img className="w-full" src="https://skatethestates.com/wp-content/uploads/2020/11/how-to-kickflip-on-a-skateboard-1.jpg" alt="" />
           </div>
-          <div className="w-full my-4 flex-row text-xs">
-            <h4 className="font-bold my-4 mx-4 flex content-end">What is Permaculture?</h4>
-            <p className="mt-4 mx-4">
+          <div className="w-full my-4">
+            <h4 className="font-bold my-4 flex content-end">What is Permaculture?</h4>
+            <p className="mt-4">
               Permaculture is a practical, holistic
               design approach to ecological living
               - observing how parts relate, how we
@@ -85,7 +84,7 @@ function About() {
               outputs, working with nature - we can
               develop long-term sustainable solutions.</p>
             <br />
-            <p className="mx-4">
+            <p className="">
               When combining Architecture and Permaculture design, we create places that
               are both beautiful and abundant, and
               touch the earth lightly.
@@ -93,7 +92,7 @@ function About() {
           </div>
         </section>
         <section className="w-full">
-          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8 text-xs">
+          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8">
             <p className="mx-4">
               <span className="font-bold">OUR NAMESAKE</span>: Inspired by the 1960s architecture collective SUPER STUDIO,
               super‘land’studio seeks to engage contemporary architecture design with that of

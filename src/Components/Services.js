@@ -9,9 +9,11 @@ function Services() {
         <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/101674505/original/e4b93eb2eb86b6016bd7605eee035a31f4d72a80/do-chief-architect-x9-x8-x7-and-x6.jpg" alt="#" />
       </section>
       <section className="mt-14 mx-8">
-        <h4 className="font-bold">SERVICES</h4>
+
         <div className="grid grid-cols-2 gap-2">
+
           <div>
+            <h4 className="font-bold">SERVICES</h4>
             <p>superland studio offers full architectural & permaculture design
               services; we see both disciplines as overlapping in their influence and
               approach, critical to achieving fully integrated ecological living.</p>
