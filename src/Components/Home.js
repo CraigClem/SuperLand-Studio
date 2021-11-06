@@ -7,6 +7,17 @@ function Home() {
     <>
       <Header />
       <main className="h-full">
+        <div className="flex justify-center text-center mb-10">
+          <p className="leading-10">superland studio connects
+            <br />
+            architecture with ecosystem design.
+            <br />
+            <span className="font-bold">We create productive, low-impact,
+              <br />
+              beautiful buildings and landscapes.
+            </span>
+          </p>
+        </div>
         <section className="grid grid-cols-3 gap-2 mx-8 my-8 lg:grid lg:grid-cols-3 lg:gap-4 lg:mx-2 justify-center">
           <div className="lg:py-0 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_z2z5mq">

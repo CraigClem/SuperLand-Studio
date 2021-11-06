@@ -13,7 +13,8 @@ ul li {
 }
 
 .hero {
-  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1634463248/edible_garden_design_Kensington_copy_st1lw1.jpg");
+  background-color: darkgray;
+  /* background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1634463248/edible_garden_design_Kensington_copy_st1lw1.jpg"); */
   background-size: cover;
   opacity: 1;
   height: 300px;

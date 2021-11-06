@@ -4,6 +4,7 @@ function Contact() {
   return (
     <section className="bg-gray-200 w-full">
       <form name="contact" method="POST" action="https://formspree.io/f/mgerqrzp" className="flex justify-center">
+        <p>Contact us</p>
         <div className="flex flex-col my-16 w-1/3">
           <div className="flex justify-center">
           </div>

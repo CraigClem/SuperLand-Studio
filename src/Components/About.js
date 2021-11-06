@@ -6,7 +6,7 @@ function About() {
     <>
       <header>
         <div className="hero flex flex-container relative">
-          <h1 className="text-2xl font-black flex absolute bottom-0 left-0">
+          <h1 className="text-2xl font-black flex absolute bottom-0 left-0 ml-8">
             ABOUT</h1>
         </div>
       </header>
@@ -37,12 +37,11 @@ function About() {
               design principles into her own architecture work.</p>
             <br />
             <p className="">Sarah has completed courses on Passivhaus and retrofit at The Green
-              Register. She continues to research and work in both fields of sustainable architecture and permaculture, drawing from the two disciplines to
-              inform her designs.
+              Register. She continues to research and work in both fields of sustainable architecture and permaculture, drawing from the two disciplines to inform her designs.
               She is passionate about education of agroecological practices and provides valuable illustrations and graphic resources for Niels Corfield, Edible
               Cities and Permaculture Network training and education programmes.</p>
             <br />
-            <p className="">Sarah now runs <span className="font-bold">superland studio</span> from her Cornish smallholding near
+            <p className="">Sarah now runs the Studio from her Cornish smallholding near
               Camborne, where ecological design is an integral part of her home.
             </p>
           </div>
@@ -60,9 +59,9 @@ function About() {
             <p className="mx-4 pb-8 mt-4">
               NIELS CORFIELD / EDIBLE CITIES – Based in the south west, Niels
               Corfield is an agroecological educator and has been working closely
-              with superland studio for a decade to deliver consulting services for
+              with super<strong>land</strong> studio for a decade to deliver consulting services for
               productive and edible landscape design, as well as a variety of education resources in permaculture design practice.
-              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic text-gray-400"><br /> www.nielscorfield.com</a>
+              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic text-gray-400 underline"><br /> www.nielscorfield.com</a>
             </p>
           </div>
           <div className="lg:py-0 py-4 my-4">
