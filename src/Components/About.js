@@ -6,7 +6,7 @@ function About() {
     <>
       <header className="mx-8">
         <div className="hero flex flex-container relative">
-          <h1 className="text-2xl font-bold text-black flex absolute bottom-0 left-0 ml-8 mb-2">
+          <h1 className="text-6xl font-bold text-black flex absolute bottom-0 left-0 ml-8 mb-2">
             ABOUT</h1>
         </div>
       </header>

@@ -10,48 +10,48 @@ function Home() {
         <section className="lrg:grid lg:grid-cols-3 gap-4 mx-4 my-4 md:grid md:grid-cols-2">
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_FINAL_kppnfb">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="listed_conversion_chiswick_FINAL_klvdql">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="portishead_extension_FINAL_qbmwv6">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_2_knm65d">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="wildlife_area_sunflowers_FINAL_z1r5kj">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_cities_full_graphic_2_maagud">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_FINAL_c1sdif">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
 
           </div>
           <div className="lg:py-0 py-4 flex justify-center">
             <Image className="" cloudName="drevpwd0d" publicId="Chew_Magna_CIC_landscape_FINAL_ae4mwf">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="lg:py-0 py-4 flex justify-center">
             <Image className="" cloudName="drevpwd0d" publicId="terrace_extension_garden_bristol_FINAL_rhpjbv">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+              <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
         </section>

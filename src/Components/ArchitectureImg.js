@@ -21,7 +21,7 @@ function ArchitectureImg() {
         </Image>
       </div>
       <div className="my-2 lg:py-0 sm:py-4">
-        <Image cloudName="drevpwd0d" publicId="BRM003_ihh0yh">
+        <Image cloudName="drevpwd0d" publicId="IMG_7508_b_w_q0vwit">
           <Transformation height="500" width="600" crop="fill" quality="100" />
         </Image>
       </div>

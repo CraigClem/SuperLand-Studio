@@ -10,18 +10,16 @@ function Services() {
         <img src="https://res.cloudinary.com/drevpwd0d/image/upload/v1636726028/A010_GA08H_SECTION_AA_vfdqcp.jpg" alt="#" />
       </section>
       <section className="mt-14 mx-8">
-
+        <p className="font-bold text-6xl mb-8">SERVICES</p>
         <div className="grid grid-cols-2 gap-2">
-
           <div className="h-full w-full">
-            <h4 className="font-bold">SERVICES</h4>
             <p>super<stong>land</stong> studio offers full architectural & permaculture design
               services; we see both disciplines as overlapping in their influence and
               approach, critical to achieving fully integrated ecological living.</p>
             <br />
             <p>Visualising ideas is part of our work at every stage</p>
             <br />
-            <p className="font-bold">Architectural Services</p>
+            <p className="font-bold text-2xl">Architectural Services</p>
             <br />
             <p>
               We cover all stages of design and construction - from feasibility
@@ -60,7 +58,7 @@ function Services() {
       <section className="w-full bg-gray-400 mt-8">
         <div className="grid grid-cols-2 gap-2 mx-8">
           <div className="h-full w-full mt-4">
-            <h4 className="font-bold">Permaculture Services</h4>
+            <h4 className="font-bold text-2xl">Permaculture Services</h4>
             <br />
             <p>
               super<strong>land</strong> studio provides a full spectrum of applied permaculture
@@ -102,7 +100,7 @@ function Services() {
       </section>
       <section className="w-full">
         <div className="mx-6 my-8">
-          <h4 className="font-bold">Illustration / Visualisation / Teaching Resources</h4>
+          <p className="font-bold text-2xl mb-8">Illustration / Visualisation / Teaching Resources</p>
           <p>We offer a variety of illustration services from hand drawn to scaled
             computer visuals to infographics. We simplifying complex ideas
             and systems into easy-to-understand pictures.
