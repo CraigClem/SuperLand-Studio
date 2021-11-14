@@ -3,9 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 * {
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   margin: auto 0;
+  /* font-family: "Raleway", sans-serif; */
 }
 
 ul li {
@@ -13,10 +16,10 @@ ul li {
 }
 
 .hero {
-  background-color: darkgray;
-  /* background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1634463248/edible_garden_design_Kensington_copy_st1lw1.jpg"); */
-  background-size: cover;
-  opacity: 1;
-  height: 300px;
+  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1636726024/Superlandstudio%20images%20%281%29/WHIPLEY_glass_box_final_cajwc0.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: contain; */
+  height: 400px;
   width: 100%;
 }

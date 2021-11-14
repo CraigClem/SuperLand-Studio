@@ -4,30 +4,33 @@ import { Image, Transformation } from 'cloudinary-react'
 function About() {
   return (
     <>
-      <header>
+      <header className="mx-8">
         <div className="hero flex flex-container relative">
-          <h1 className="text-2xl font-black flex absolute bottom-0 left-0 ml-8">
+          <h1 className="text-2xl font-bold text-black flex absolute bottom-0 left-0 ml-8 mb-2">
             ABOUT</h1>
         </div>
       </header>
 
-      <main className="my-4">
-
-        <section className="grid grid-cols-2 gap-1 mx-8 w-1/3 content-start">
-          <div className="mt-4">
-            <img src="https://www.milton.edu/wp-content/uploads/2019/11/avatar-placeholder-250x300.jpg" alt="" />
+      <main className="my-4 w-full">
+        <section className="grid grid-cols-3 gap-1 mx-8 my-8">
+          <div className="w-full h-full col-span-2 flex flex-row">
+            <Image cloudName="drevpwd0d" className="mr-4"
+              publicId="sarah_headshot_2_zf3rvl.jpg" >
+              <Transformation width="200" height="200" crop="fit" />
+            </Image>
+            <div className="w-2/3 h-full">
+              <p className="">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
+              </p>
+              <p className="mt-5 w-full">
+                <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
+              </p>
+            </div>
           </div>
-          <div className="w-full">
-            <p className="">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
-            </p>
-            <p className="mt-5 w-full">
-              <span className="font-bold">Sarah Burton BA (Hons) Dip Arch</span>
-            </p>
-          </div>
 
 
-          <div className="col-span-2">
-            <p className="mt-4">
+
+          <div className="col-span-2 h-full">
+            <p className="">
               Sarah Burton completed RIBA Part 2 at The Bartlett School of Architecture, UCL in 2005. After working for six years in architectural practices
               in London and Sydney, she discovered permaculture whilst living with
               an eco-community in Byron Bay, Australia. Sarah was inspired by how
@@ -46,14 +49,15 @@ function About() {
             </p>
           </div>
 
-          {/* <div>
-            <div className="flex flex-row justify-end w-1/4 h-auto">
-              <img src="https://images.unsplash.com/photo-1503818454-2a008dc38d43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFsbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="tall" />
-            </div>
-          </div> */}
+          <div className="w-full h-full row-start-3 row-end-1 col-start-3">
+            <Image cloudName="drevpwd0d"
+              publicId="Bedwell_SHOT_4_final_-_Oliver_Perrott_b9og5g.jpg" >
+              <Transformation width="400" height="900" crop="crop" />
+            </Image>
+          </div>
 
         </section>
-        <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
+        <section className="bg-gray-400 w-full grid grid-cols-2 my-8">
           <div className="my-2 ml-4">
             <h4 className="font-bold mx-4 pt-8">PARTNERS</h4>
             <p className="mx-4 pb-8 mt-4">
@@ -61,24 +65,25 @@ function About() {
               Corfield is an agroecological educator and has been working closely
               with super<strong>land</strong> studio for a decade to deliver consulting services for
               productive and edible landscape design, as well as a variety of education resources in permaculture design practice.
-              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic text-gray-400 underline"><br /> www.nielscorfield.com</a>
+              <a href="https://nielscorfield.com/" target="_blank" rel="noreferrer" className="italic text-white underline"><br /> www.nielscorfield.com</a>
             </p>
           </div>
-          <div className="lg:py-0 py-4 my-4">
-            <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
-              <Transformation height="400" width="400" crop="fit" />
+          <div className="lg:py-0 py-4 my-4 mr-8">
+            <Image cloudName="drevpwd0d"
+              publicId="bee_on_borage_jtlm6d.jpg" >
+              <Transformation width="1188" crop="fit" />
             </Image>
           </div>
         </section>
 
 
-        <section className="bg-gray-200 w-full grid grid-cols-2 my-8">
-          <div className="lg:py-0 lg:ml-8 py-4 my-4 mx-4">
-            <Image cloudName="drevpwd0d" publicId="hoghton_chapel_listed_conversion_kibsmf">
-              <Transformation height="400" width="400" crop="fit" />
+        <section className="w-full h-full grid grid-cols-3 my-8">
+          <div className="lg:py-0 lg:ml-8 py-4 my-4 mx-4 col-span-2">
+            <Image cloudName="drevpwd0d" publicId="living_buildings_FINAL_idmawe.jpg">
+              <Transformation height="500" width="800" crop="fit" />
             </Image>
           </div>
-          <div className="w-full my-4">
+          <div className="w-full h-full">
             <h4 className="font-bold my-4 flex content-end">What is Permaculture?</h4>
             <p className="mt-4 mr-10">
               Permaculture is a practical, holistic
@@ -96,7 +101,7 @@ function About() {
           </div>
         </section>
         <section className="w-full">
-          <div className="w-full bg-gray-200 flex justify-center align-center my-4 py-8">
+          <div className="w-full bg-gray-400 flex justify-center align-center my-4 py-8">
             <p className="ml-4 mr-96">
               <span className="font-bold">OUR NAMESAKE</span>: Inspired by the 1960s architecture collective SUPER STUDIO,
               super‘land’studio seeks to engage contemporary architecture design with that of

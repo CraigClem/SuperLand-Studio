@@ -1,18 +1,19 @@
 import React from 'react';
 import Header from './Header'
+import { Image, Transformation } from 'cloudinary-react'
 
 function Services() {
   return (
     <main>
       <Header />
       <section className="mx-8 h-full">
-        <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/101674505/original/e4b93eb2eb86b6016bd7605eee035a31f4d72a80/do-chief-architect-x9-x8-x7-and-x6.jpg" alt="#" />
+        <img src="https://res.cloudinary.com/drevpwd0d/image/upload/v1636726028/A010_GA08H_SECTION_AA_vfdqcp.jpg" alt="#" />
       </section>
       <section className="mt-14 mx-8">
 
         <div className="grid grid-cols-2 gap-2">
 
-          <div>
+          <div className="h-full w-full">
             <h4 className="font-bold">SERVICES</h4>
             <p>super<stong>land</stong> studio offers full architectural & permaculture design
               services; we see both disciplines as overlapping in their influence and
@@ -46,14 +47,19 @@ function Services() {
               </ul>
             </div>
           </div>
-          <div>
-            <img src="https://static.dezeen.com/uploads/2021/05/wall-door-by-lualdi_dezeen_2364_col_5-852x1278.jpg" alt="#" />
+          <div className="h-full w-full">
+            <Image
+              cloudName="drevpwd0d"
+              publicId="BRM013_final_kdibi5.jpg" >
+              <Transformation height="800" width="500" crop="fill" quality="100" />
+
+            </Image>
           </div>
         </div>
       </section>
-      <section className="w-full bg-gray-300 mt-8">
+      <section className="w-full bg-gray-400 mt-8">
         <div className="grid grid-cols-2 gap-2 mx-8">
-          <div>
+          <div className="h-full w-full mt-4">
             <h4 className="font-bold">Permaculture Services</h4>
             <br />
             <p>
@@ -85,7 +91,12 @@ function Services() {
             </ul>
           </div>
           <div className="my-4">
-            <img src="https://static.dezeen.com/uploads/2021/05/wall-door-by-lualdi_dezeen_2364_col_5-852x1278.jpg" alt="#" />
+            <Image
+              cloudName="drevpwd0d"
+              publicId="IMG_7993_xfcxgu" >
+              <Transformation height="800" width="500" crop="fill" quality="100" />
+
+            </Image>
           </div>
         </div>
       </section>
@@ -106,8 +117,15 @@ function Services() {
           </ul>
         </div>
       </section>
-      <section>
-        <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/101674505/original/e4b93eb2eb86b6016bd7605eee035a31f4d72a80/do-chief-architect-x9-x8-x7-and-x6.jpg" alt="#" />
+      <section className="w-full h-full">
+        <div className="w-full">
+          <Image
+            cloudName="drevpwd0d"
+            publicId="FRONT_PAGE_GRAPHIC_REVISED_2_HAND_tp3szz.png" >
+            <Transformation height="883" crop="fill" />
+
+          </Image>
+        </div>
       </section>
     </main>
 
