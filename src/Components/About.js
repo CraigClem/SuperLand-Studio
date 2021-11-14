@@ -49,12 +49,12 @@ function About() {
             </p>
           </div>
 
-          <div className="w-full h-full row-start-3 row-end-1 col-start-3">
+          {/* <div className="hidden lg:w-full lg:h-full lg:row-start-3 lg:row-end-1 lg:col-start-3">
             <Image cloudName="drevpwd0d"
               publicId="Bedwell_SHOT_4_final_-_Oliver_Perrott_b9og5g.jpg" >
               <Transformation width="400" height="900" crop="crop" />
             </Image>
-          </div>
+          </div> */}
 
         </section>
         <section className="bg-gray-400 w-full grid grid-cols-2 my-8">
