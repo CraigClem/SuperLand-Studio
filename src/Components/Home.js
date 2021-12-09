@@ -56,7 +56,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-400 w-full h-96 py-96 my-2 flex align-middle">
+        <section className="bg-gray-400 w-full h-96 my-2 flex align-middle">
           <div className="ml-14">
             <p className="text-white font-extrabold text-xl md:text-2xl lg:text-3xl tracking-wide py-1 lg:leading-10">REGNERATIVE DESIGN</p>
             <p className="text-gray-600 font-extrabold text-xl md:text-2xl lg:text-3xl py-1 tracking-wide lg:leading-10">FOR BUILDINGS,</p>
@@ -67,11 +67,11 @@ function Home() {
 
         <section className="grid grid-cols-2 w-full">
 
-          <div className="mx-4 mt-2 mb-4 lg:ml-48">
-            <Image cloudName="drevpwd0d" publicId="hands_in_soil_FINAL_d9lgrq">
+          {/* <div className="soil-hands w-full h-full mx-4 mt-2 mb-4"> */}
+          {/* <Image cloudName="drevpwd0d" publicId="hands_in_soil_FINAL_d9lgrq">
               <Transformation height="250" width="300" crop="fill" quality="100" />
-            </Image>
-          </div>
+            </Image> */}
+          {/* </div> */}
 
           <div className="mx-4 my-2 tracking-wide text-xs lg:text-lg">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>

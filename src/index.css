@@ -16,10 +16,19 @@ ul li {
 }
 
 .hero {
-  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1636726024/Superlandstudio%20images%20%281%29/WHIPLEY_glass_box_final_cajwc0.jpg");
-  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1636726024/WHIPLEY_glass_box_final_cajwc0.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
   background-position: center center;
-  /* background-size: contain; */
   height: 400px;
+  width: 100%;
+}
+
+.soil-hands {
+  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1636720774/hands_in_soil_FINAL_d9lgrq.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center center; */
+  height: 100%;
   width: 100%;
 }
