@@ -73,7 +73,7 @@ function Home() {
             </Image> */}
           {/* </div> */}
 
-          <div className="mx-4 my-2 tracking-wide text-xs lg:text-lg">
+          <div className="mx-4 my-2 tracking-wide text-xs lg:text-xl">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>
             <p className="font-bold pb-2">Our designs help people transition to a more
               sustainable, carbon-free future. We focus on:</p>
