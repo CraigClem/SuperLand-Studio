@@ -29,7 +29,7 @@ function Home() {
             </Image>
           </div>
           <div className="text-img lg:py-4 py-4 flex justify-center align-middle">
-            <p className="lg:flex lg:flex-col text-center m-8 lg:text-2xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
+            <p className="lg:flex lg:flex-col text-center m-8 lg:text-3xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_cities_full_graphic_2_maagud">
@@ -56,13 +56,13 @@ function Home() {
 
         <section className="bg-gray-300 w-full h-screen lg:h-screen my-2 flex align-middle">
           <div className="ml-14">
-            <p className="text-white font-extrabold text-xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGENERATIVE DESIGN:</p>
+            <p className="text-white font-extrabold text-2xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGENERATIVE DESIGN:</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR BUILDINGS,</p>
+            <p className="text-gray-600 font-extrabold text-2xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR BUILDINGS,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR LANDSCAPES,</p>
+            <p className="text-gray-600 font-extrabold text-2xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR LANDSCAPES,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-xl lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR COMMUNITIES.</p>
+            <p className="text-gray-600 font-extrabold text-2xl lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR COMMUNITIES.</p>
           </div>
         </section>
 
@@ -73,7 +73,7 @@ function Home() {
             </Image> */}
           </div>
 
-          <div className="lg:mx-12 lg:my-2 lg:px-8 tracking-wide text-xs md:text-xl lg:text-2xl mx-6">
+          <div className="lg:mx-12 lg:my-2 lg:px-8 tracking-wide text-xs md:text-xl lg:text-3xl mx-6">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>
             <p className="font-bold pb-2">Our designs help people transition to a more
               sustainable, carbon-free future. We focus on:</p>
