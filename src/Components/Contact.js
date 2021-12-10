@@ -14,7 +14,7 @@ function Contact() {
           <input name="email" type="text" required className="rounded-sm border-2 border-grey-200" />
           <label className="my-2">Message </label>
           <textarea name="message" type="text" required className="rounded-sm border-2 border-grey-200" />
-          <button type="submit" className="border-2 border-grey-200 p-4 my-4 w-full lg:w-1/4">Send</button>
+          <button type="submit" className="border-2 border-grey-200 p-4 my-4 w-full lg:w-1/4 bg-gray-300 hover:bg-gray-500">Send</button>
         </div>
       </form>
       <div className="w-full justify-center align-middle mt-2 lg:p-8 lg:mt-8">

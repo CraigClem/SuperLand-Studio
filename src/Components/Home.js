@@ -68,9 +68,9 @@ function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 w-full">
+        <section className="grid grid-cols-2 w-full lg:h-screen">
 
-          <div className="mx-4 lg:w-full lg:h-full lg:mx-4 lg:mt-2 lg:mb-4 sarah-main-img">
+          <div className="mx-4 lg:w-full lg:h-sreen lg:mx-4 lg:mt-2 lg:mb-4 sarah-main-img">
             {/* <Image cloudName="drevpwd0d" publicId="Sarah_photo_b_w_w5xzx4.jpg" >
             </Image> */}
           </div>
