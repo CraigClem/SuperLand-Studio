@@ -23,7 +23,7 @@ function Home() {
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
-          <div className="lg:py-4 py-4 flex justify-center">
+          <div className=" text-img lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_2_knm65d">
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
@@ -56,31 +56,26 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-400 w-full h-screen my-2 flex align-middle">
+        <section className="bg-gray-400 w-full h-screen lg:h-screen my-2 flex align-middle">
           <div className="ml-14">
-            <p className="text-white font-extrabold text-6xl tracking-wide py-1 lg:leading-10 mb-8">REGNERATIVE DESIGN</p>
+            <p className="text-white font-extrabold text-xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGNERATIVE DESIGN</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-6xl py-1 tracking-wide lg:leading-10 my-8">FOR BUILDINGS,</p>
+            <p className="text-gray-600 font-extrabold text-xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR BUILDINGS,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-6xl py-1 tracking-wide lg:leading-10 my-8">FOR LANDSCAPES,</p>
+            <p className="text-gray-600 font-extrabold text-xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR LANDSCAPES,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-6xl py-1 tracking-wide lg:leading-10 my-8">FOR COMMUNITIES.</p>
+            <p className="text-gray-600 font-extrabold text-xl lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR COMMUNITIES.</p>
           </div>
         </section>
 
         <section className="grid grid-cols-2 w-full">
 
-          <div className="w-full h-full mx-4 mt-2 mb-4">
-            {/* <Image cloudName="drevpwd0d" publicId="hands_in_soil_FINAL_d9lgrq">
-              <Transformation height="250" width="300" crop="fill" quality="100" />
+          <div className="mx-4 lg:w-full lg:h-full lg:mx-4 lg:mt-2 lg:mb-4 sarah-main-img">
+            {/* <Image cloudName="drevpwd0d" publicId="Sarah_photo_b_w_w5xzx4.jpg" >
             </Image> */}
-            {/* </div> */}
-            <Image cloudName="drevpwd0d" publicId="Sarah_photo_b_w_w5xzx4.jpg" >
-
-            </Image>
           </div>
 
-          <div className="mx-12 my-2 px-8 tracking-wide text-xs md:text-xl lg:text-2xl">
+          <div className="lg:mx-12 lg:my-2 lg:px-8 tracking-wide text-xs md:text-xl lg:text-2xl mx-6">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>
             <p className="font-bold pb-2">Our designs help people transition to a more
               sustainable, carbon-free future. We focus on:</p>
