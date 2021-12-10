@@ -8,7 +8,7 @@
 * {
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   margin: auto 0;
-  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Raleway", "Raleway Bold", sans-serif; */
 }
 
 ul li {
@@ -32,4 +32,13 @@ ul li {
   height: 100%;
   width: 100%;
   /* margin: auto; */
+}
+
+.text-img {
+  background-image: url("https://res.cloudinary.com/drevpwd0d/image/upload/v1636720773/wildlife_area_sunflowers_FINAL_z1r5kj.jpg");
+  background-size: cover;
+  background-position: center center;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }

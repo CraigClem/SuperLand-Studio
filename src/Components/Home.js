@@ -23,15 +23,13 @@ function Home() {
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
-          <div className=" text-img lg:py-4 py-4 flex justify-center">
+          <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_2_knm65d">
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
-          <div className="lg:py-4 py-4 flex justify-center">
-            <Image cloudName="drevpwd0d" publicId="wildlife_area_sunflowers_FINAL_z1r5kj">
-              <Transformation height="500" width="600" crop="fill" quality="100" />
-            </Image>
+          <div className="text-img lg:py-4 py-4 flex justify-center align-middle">
+            <p className="lg:flex lg:flex-col text-center m-8 lg:text-2xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_cities_full_graphic_2_maagud">
@@ -56,9 +54,9 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-400 w-full h-screen lg:h-screen my-2 flex align-middle">
+        <section className="bg-gray-300 w-full h-screen lg:h-screen my-2 flex align-middle">
           <div className="ml-14">
-            <p className="text-white font-extrabold text-xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGNERATIVE DESIGN</p>
+            <p className="text-white font-extrabold text-xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGENERATIVE DESIGN:</p>
             <br />
             <p className="text-gray-600 font-extrabold text-xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR BUILDINGS,</p>
             <br />
@@ -68,7 +66,7 @@ function Home() {
           </div>
         </section>
 
-        <section className="grid grid-cols-2 w-full lg:h-screen">
+        <section className="grid grid-cols-2 w-full lg:h-screen mt-8">
 
           <div className="mx-4 lg:w-full lg:h-sreen lg:mx-4 lg:mt-2 lg:mb-4 sarah-main-img">
             {/* <Image cloudName="drevpwd0d" publicId="Sarah_photo_b_w_w5xzx4.jpg" >
