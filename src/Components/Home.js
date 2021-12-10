@@ -29,7 +29,7 @@ function Home() {
             </Image>
           </div>
           <div className="text-img lg:py-4 py-4 flex justify-center align-middle">
-            <p className="lg:flex lg:flex-col text-center m-8 lg:text-3xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
+            <p className="lg:flex lg:flex-col text-center m-8 md:text-lg lg:text-3xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_cities_full_graphic_2_maagud">
