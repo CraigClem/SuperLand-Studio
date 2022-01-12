@@ -42,3 +42,23 @@ ul li {
   height: 100%;
   width: 100%;
 }
+
+/* .main-home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  flex-direction: column;
+}
+
+.main-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-img {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+} */
