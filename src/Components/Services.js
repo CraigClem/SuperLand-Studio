@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header'
+import Footer from './Footer'
 import { Image, Transformation } from 'cloudinary-react'
 
 function Services() {
@@ -123,6 +124,7 @@ function Services() {
           </Image>
         </div>
       </section>
+      <Footer />
     </main>
 
   )

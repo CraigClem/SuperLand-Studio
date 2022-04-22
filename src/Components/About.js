@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Transformation } from 'cloudinary-react'
+import Footer from './Footer'
 
 
 function About() {
@@ -15,7 +16,7 @@ function About() {
       <main className="my-4">
         <section className="grid grid-cols-3 gap-1 m-4 text-sm lg:text-2xl lg:grid-cols-4">
           <div class='sarah-headshot lg:h-96 lg:w-auto lg:ml-24'></div>
-          <div className="col-span-2 flex flex-col lg:col-span-2 lg:w-1/3 lg:leading-relaxed">
+          <div className="col-span-2 flex flex-col lg:col-span-2 lg:w-1/3 lg:leading-relaxed lg:ml-8">
             <p className="">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
             </p>
             <p className="lg:mt-4">
@@ -111,9 +112,10 @@ function About() {
           </div>
         </section>
 
-
+        <Footer />
       </main>
     </>
+
 
   )
 }

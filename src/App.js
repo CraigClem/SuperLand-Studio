@@ -21,7 +21,7 @@ function App() {
         <Route component={Gallery} path="/gallery" />
         <Route component={Contact} path="/contact" />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
 
 

@@ -1,5 +1,6 @@
 import { Image, Transformation } from 'cloudinary-react'
 import Header from './Header'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -70,7 +71,7 @@ function Home() {
           <div className="sarah-main-img">
           </div>
 
-          <div className="px-10 text-sm lg:text-2xl lg:w-2/3 lg:leading-loose">
+          <div className="px-10 text-sm lg:text-2xl lg:w-2/3 lg:leading-relaxed">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>
             <p className="font-bold pb-2">Our designs help people transition to a more
               sustainable, carbon-free future. We focus on:</p>
@@ -86,6 +87,7 @@ function Home() {
           </div>
 
         </section>
+        <Footer />
       </main>
 
     </>
