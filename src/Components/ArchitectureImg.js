@@ -1,10 +1,10 @@
 import React from 'react';
 import { Image, Transformation } from 'cloudinary-react'
 
+
 function ArchitectureImg() {
   return (
-
-    <section className="lrg:grid lg:grid-cols-3 gap-4 mx-4 my-4 md:grid md:grid-cols-2">
+    <section className="lg:grid lg:grid-cols-3 gap-4 mx-4 my-16 md:grid md:grid-cols-2">
       <div className=" my-2 lg:py-0 sm:py-4">
         <Image cloudName="drevpwd0d" publicId="BRM003_ihh0yh">
           <Transformation height="500" width="600" crop="fill" quality="100" />

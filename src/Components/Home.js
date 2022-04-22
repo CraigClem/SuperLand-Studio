@@ -1,13 +1,12 @@
 import { Image, Transformation } from 'cloudinary-react'
 import Header from './Header'
-import Contact from './Contact'
 
 function Home() {
   return (
     <>
       <Header />
       <main className="h-full w-full">
-        <section className="lrg:grid lg:grid-cols-3 gap-4 mx-4 my-4 md:grid md:grid-cols-2">
+        <section className="lg:grid lg:grid-cols-3 gap-4 mx-4 my-4 md:grid md:grid-cols-2">
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="bedwell_lodge_editing_studio_FINAL_kppnfb">
               <Transformation height="500" width="600" crop="fill" quality="100" />
@@ -23,13 +22,13 @@ function Home() {
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
-          <div className="lg:py-4 py-4 flex justify-center">
+          <div className="py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_garden_design_Kensington_2_knm65d">
               <Transformation height="500" width="600" crop="fill" quality="100" />
             </Image>
           </div>
           <div className="text-img lg:py-4 py-4 flex justify-center align-middle">
-            <p className="lg:flex lg:flex-col text-center m-8 md:text-lg lg:text-3xl"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
+            <p className="lg:flex lg:flex-col text-center m-8 md:text-lg lg:text-3xl lg:leading-loose"><span className="font-bold">Superland studio</span> connects architecture with ecosystem design. <span className="font-bold"> We create productive, low impact, beautiful buildings and landscapes.</span></p>
           </div>
           <div className="lg:py-4 py-4 flex justify-center">
             <Image cloudName="drevpwd0d" publicId="edible_cities_full_graphic_2_maagud">
@@ -54,31 +53,29 @@ function Home() {
           </div>
         </section>
 
-        <section className="bg-gray-300 w-full h-screen lg:h-screen my-2 flex align-middle">
-          <div className="ml-14">
-            <p className="text-white font-extrabold text-2xl  lg:text-6xl tracking-wide py-1 lg:leading-10 lg:mb-8">REGENERATIVE DESIGN:</p>
+        <section className="bg-gray-300 h-screen my-2 flex align-center">
+          <div className="font-extrabold text-2xl tracking-wide py-1 flex flex-col ml-10 justify-center lg:text-5xl">
+            <p className="text-white">REGENERATIVE DESIGN:</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-2xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR BUILDINGS,</p>
+            <p className="text-gray-600">FOR BUILDINGS,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-2xl  lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR LANDSCAPES,</p>
+            <p className="text-gray-600">FOR LANDSCAPES,</p>
             <br />
-            <p className="text-gray-600 font-extrabold text-2xl lg:text-6xl py-1 tracking-wide lg:leading-10 lg:my-8">FOR COMMUNITIES.</p>
+            <p className="text-gray-600">FOR COMMUNITIES.</p>
           </div>
         </section>
 
-        <section className="grid grid-cols-2 w-full lg:h-screen mt-8">
+        <section className="grid grid-cols-2 w-full mx-4 mt-8 h-screen">
 
-          <div className="mx-4 lg:w-full lg:h-sreen lg:mx-4 lg:mt-2 lg:mb-4 sarah-main-img">
-            {/* <Image cloudName="drevpwd0d" publicId="Sarah_photo_b_w_w5xzx4.jpg" >
-            </Image> */}
+          <div className="sarah-main-img">
           </div>
 
-          <div className="lg:mx-12 lg:my-2 lg:px-8 tracking-wide text-xs md:text-xl lg:text-3xl mx-6 leading-10">
+          <div className="px-10 text-sm lg:text-2xl lg:w-2/3 lg:leading-loose">
             <p className="flex pb-2">We specialise in residential and conservation projects, as well as community focused builds. </p>
             <p className="font-bold pb-2">Our designs help people transition to a more
               sustainable, carbon-free future. We focus on:</p>
 
-            <ul className="ml-4 font-light">
+            <ul className="ml-4">
               <li>maximum building and site performance</li>
               <li>low-energy</li>
               <li>healthy homes, buildings and ecosystems</li>
@@ -90,7 +87,7 @@ function Home() {
 
         </section>
       </main>
-      <Contact />
+
     </>
   )
 }

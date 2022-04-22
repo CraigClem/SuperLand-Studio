@@ -4,24 +4,27 @@ import { Image, Transformation } from 'cloudinary-react'
 
 function Services() {
   return (
-    <main>
+    <main className='w-full h-full'>
       <Header />
-      <section className="mx-8 h-full">
-        <img src="https://res.cloudinary.com/drevpwd0d/image/upload/v1636726028/A010_GA08H_SECTION_AA_vfdqcp.jpg" alt="#" />
+      <section className="h-full w-full">
+        <Image
+          cloudName="drevpwd0d"
+          publicId="A010_GA08H_SECTION_AA_vfdqcp.jpeg" >
+          <Transformation height="600" width="4000" crop="crop" quality="100" />
+        </Image>
+
       </section>
-      <section className="mt-14 mx-8">
-        <p className="font-bold text-6xl mb-8">SERVICES</p>
-        <div className="grid grid-cols-2 gap-2">
-          <div className="h-full w-full">
-            <p>super<stong>land</stong> studio offers full architectural & permaculture design
+      <section className="mt-2 p-4 w-full">
+        <p className="font-bold text-3xl mb-8 lg:text-7xl lg:ml-24">SERVICES</p>
+        <div className="grid grid-cols-2 gap-2 w-full lg:ml-24 lg:mb-12">
+          <div className="h-full w-full text-sm col-span-2 lg:text-2xl lg:col-span-1">
+            <p class=''>super<strong>land</strong> studio offers full architectural & permaculture design
               services; we see both disciplines as overlapping in their influence and
-              approach, critical to achieving fully integrated ecological living.</p>
+              approach, critical to achieving fully integrated ecological living. Visualising ideas is part of our work at every stage.</p>
             <br />
-            <p>Visualising ideas is part of our work at every stage</p>
+            <p className="font-bold text-2xl lg:text-4xl">Architectural Services</p>
             <br />
-            <p className="font-bold text-2xl">Architectural Services</p>
-            <br />
-            <p>
+            <p className="">
               We cover all stages of design and construction - from feasibility
               design to planning, supervision on site through to completion and
               handover to the client. Whatever your budget, we provide you with
@@ -30,7 +33,7 @@ function Services() {
               structures. Our work includes residential, conservation, commercial
               and community builds.</p>
             <br />
-            <div className="ml-4">
+            <div className="ml-4 lg:">
               <ul className="">
                 <li>Surevy Services</li>
                 <li>Feasibility Design</li>
@@ -45,22 +48,16 @@ function Services() {
               </ul>
             </div>
           </div>
-          <div className="h-full w-full">
-            <Image
-              cloudName="drevpwd0d"
-              publicId="BRM013_final_kdibi5.jpg" >
-              <Transformation height="800" width="500" crop="fill" quality="100" />
-
-            </Image>
+          <div className="h-full w-full arch-img lg:ml-4">
           </div>
         </div>
       </section>
-      <section className="w-full bg-gray-400 mt-8">
-        <div className="grid grid-cols-2 gap-2 mx-8">
-          <div className="h-full w-full mt-4">
-            <h4 className="font-bold text-2xl">Permaculture Services</h4>
+      <section className="w-full bg-gray-400">
+        <div className="grid grid-cols-2 gap-2 p-4 text-sm lg:text-2xl">
+          <div className="h-full w-full mt-4 col-span-2 lg:col-span-1 lg:ml-24">
+            <h4 className="font-bold text-2xl lg:text-4xl">Permaculture Services</h4>
             <br />
-            <p>
+            <p className=''>
               super<strong>land</strong> studio provides a full spectrum of applied permaculture
               design services.
               Our permaculture projects encourage productive landscape design
@@ -88,20 +85,20 @@ function Services() {
               <li>Poultry Systems</li>
             </ul>
           </div>
-          <div className="my-4">
+          <div className="my-4 w-full lg:w-full lg:ml-72 hidden md:table-cell">
             <Image
               cloudName="drevpwd0d"
               publicId="IMG_7993_xfcxgu" >
-              <Transformation height="800" width="500" crop="fill" quality="100" />
-
+              <Transformation height="800" width="auto" crop="fill" quality="100" />
             </Image>
           </div>
         </div>
       </section>
+
       <section className="w-full">
-        <div className="mx-6 my-8">
-          <p className="font-bold text-2xl mb-8">Illustration / Visualisation / Teaching Resources</p>
-          <p>We offer a variety of illustration services from hand drawn to scaled
+        <div className="p-4 text-sm lg:text-2xl lg:ml-24">
+          <p className="font-bold text-2xl mb-4 lg:text-4xl">Illustration / Visualisation / Teaching Resources</p>
+          <p className='lg:w-2/3'>We offer a variety of illustration services from hand drawn to scaled
             computer visuals to infographics. We simplifying complex ideas
             and systems into easy-to-understand pictures.
             Our work includes visuals for commercial briefs, school resources,
@@ -115,6 +112,7 @@ function Services() {
           </ul>
         </div>
       </section>
+
       <section className="w-full h-full">
         <div className="w-full">
           <Image

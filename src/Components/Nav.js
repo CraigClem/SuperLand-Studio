@@ -4,24 +4,24 @@ import { NavLink } from 'react-router-dom';
 function Nav() {
   return (
     <header className="w-full">
-      <div className="container flex justify-start">
-        <nav className="flex-col">
-          <div>
-            <NavLink to="/" exact className="inline-flex items-center py-6 px-3 ml-4">
-              Home
+      <div className="container flex w-full">
+        <nav className="flex-col  w-full justify-start text-md lg:text-2xl">
+          <div class='flex justify-start w-full px-4'>
+            <NavLink to="/" exact className="inline-flex items-center py-3 px-1">
+              Home |
             </NavLink>
-            <NavLink to="/about" className="inline-flex items-center py-6 px-3">
-              About
+            <NavLink to="/about" className="inline-flex items-center py-3 px-1">
+              About |
             </NavLink>
-            <NavLink to="/services" className="inline-flex items-center py-6 px-3">
-              Services
+            <NavLink to="/services" className="inline-flex items-center py-3 px-1">
+              Services |
             </NavLink>
-            <NavLink to="/gallery" className="inline-flex items-center py-6 px-3">
-              Gallery
+            <NavLink to="/gallery" className="inline-flex items-center py-3 px-1">
+              Gallery |
             </NavLink>
-            {/* <NavLink to="/contact" className="inline-flex items-center py-6 px-3">
+            <NavLink to="/contact" className="inline-flex items-center py-3 px-1">
               Contact
-            </NavLink> */}
+            </NavLink>
           </div>
         </nav>
       </div>
