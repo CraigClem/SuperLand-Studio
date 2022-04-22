@@ -52,7 +52,7 @@ function Services() {
           </div>
         </div>
       </section>
-      <section className="w-full bg-gray-400">
+      <section className="w-full bg-gray-300">
         <div className="grid grid-cols-2 gap-2 p-4 text-sm lg:text-2xl">
           <div className="h-full w-full mt-4 col-span-2 lg:col-span-1 lg:ml-24">
             <h4 className="font-bold text-2xl lg:text-4xl">Permaculture Services</h4>

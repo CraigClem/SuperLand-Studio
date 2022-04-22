@@ -15,7 +15,7 @@ function About() {
       <main className="my-4">
         <section className="grid grid-cols-3 gap-1 m-4 text-sm lg:text-2xl lg:grid-cols-4">
           <div class='sarah-headshot lg:h-96 lg:w-auto lg:ml-24'></div>
-          <div className="col-span-2 flex flex-col lg:col-span-2 lg:w-1/3">
+          <div className="col-span-2 flex flex-col lg:col-span-2 lg:w-1/3 lg:leading-relaxed">
             <p className="">Founder Sarah Burton is a trained architect and permaculture designer and draws from experience in both fields to provide holistic design solutions to buildings and landscapes.
             </p>
             <p className="lg:mt-4">
@@ -26,12 +26,12 @@ function About() {
           <div className="lg:col-span-1 lg:row-span-3 lg:h-screen hidden md:table-cell">
             <Image cloudName="drevpwd0d"
               publicId="Bedwell_SHOT_4_final_-_Oliver_Perrott_b9og5g.jpg" >
-              <Transformation width="1000" height="1800" crop="fill" />
+              <Transformation width="1000" height="2000" crop="fill" />
             </Image>
           </div>
 
 
-          <div className="col-span-3 h-full text-sm lg:text-2xl lg:col-span-3 mt-4 lg:ml-24">
+          <div className="col-span-3 h-full text-sm lg:text-2xl lg:col-span-3 mt-4 lg:ml-24 lg:leading-relaxed">
             <p className="">
               Sarah Burton completed RIBA Part 2 at The Bartlett School of Architecture, UCL in 2005. After working for six years in architectural practices
               in London and Sydney, she discovered permaculture whilst living with
@@ -66,7 +66,7 @@ function About() {
           <div className="col-start-1 col-span-3 p-4 lg:col-span-2">
             <Image cloudName="drevpwd0d"
               publicId="bee_on_borage_jtlm6d.jpg" >
-              <Transformation width="1188" crop="fit" />
+              <Transformation width="1000" crop="fit" />
             </Image>
           </div>
         </section>
@@ -75,7 +75,7 @@ function About() {
         <section className="w-full h-full grid grid-cols-3 my-8 text-sm lg:text-2xl">
           <div className="col-span-3 perm-img mx-4 lg:col-span-2 lg:h-full">
             <Image cloudName="drevpwd0d" publicId="living_buildings_FINAL_idmawe.jpg">
-              <Transformation height="900" width="3000" crop="fit" />
+              <Transformation height="2000" width="3000" crop="fit" />
             </Image>
           </div>
           <div className="w-full h-full col-span-3 flex-col px-4 lg:col-span-1">
