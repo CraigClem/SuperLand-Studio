@@ -7,7 +7,7 @@ import About from './Components/About'
 import Services from './Components/Services'
 import Gallery from './Components/Gallery'
 import Contact from './Components/Contact'
-import Footer from './Components/Footer'
+
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route component={Gallery} path="/gallery" />
         <Route component={Contact} path="/contact" />
       </Switch>
-      {/* <Footer /> */}
+
     </BrowserRouter>
 
 
